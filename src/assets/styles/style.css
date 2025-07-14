@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: rgb(243, 241, 239);
+}
+
+.header {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 8px;
+}
+
+#containerLogin, #containerRegister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.formLogin, .formRegister {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+}
+
+.h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.a {
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #444;
+}
+
+#containerAdminHome{
+    display: grid;
+    grid-template-columns:  20% 80%;
+    height: 95vh;
+}
+
+.aside {
+    background-color: #f1cbf0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.divImg {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.divImg  img{
+    border-radius: 50%;
+}
+.divImg h4 {
+    font-weight: bold;
+}
+.divImg h5 {
+    color: rgb(207, 13, 110);
+}
+
+.divBtnEvents {
+    display: flex;
+    justify-content: end;
+    border-bottom: 2px solid #ccc;
+    padding-block: 1rem;
+}
+
+.containerEvents{
+    padding: 1rem;
+}
+
+.divBtnEvents {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.containerFormEvents{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.formEvents{
+    width: 60%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
