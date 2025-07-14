@@ -1,0 +1,28 @@
+{"users": [
+    {
+      "id": 1,
+      "username": "adrian123",
+      "email": "adrian@gmail.com",
+      "password": "adrian123",
+      "name": "Adrian",
+      "rol":"admin"
+    },
+    {
+      "name": "alesis",
+      "email": "alesis@gmail.com",
+      "username": "alesis123",
+      "password": "sss",
+      "rol":"user",
+      "id": 2
+    }],
+
+"events":[
+    {
+      "name": "feria de ruedas",
+      "description": "se muestran las motos en medellin",
+      "date": "23-07-25",
+      "capacity": 10,
+      "id": 1
+    }
+]
+}
