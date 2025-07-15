@@ -1,4 +1,5 @@
-<div class="containerFormEvents">
+export function createevents(){
+    containerEvents.innerHTML=`<div class="containerFormEvents">
                 <form class="formEvents">
                     <h2>Create Event</h2>
                     <div class="mb-3">
@@ -22,4 +23,5 @@
                         <button type="submit" class="btn btn-primary">Save Event</button>
                     </div>
                 </form>
-            </div>
+            </div>`
+}

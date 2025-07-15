@@ -17,12 +17,12 @@ PRUEBA_DESEMPEÑO_JS/
  │   │   └── noteimg.png
  │   ├── html/
  │   │   ├── home.html
- │   │   ├── login.html
  │   │   └── register.html
  │   ├── js/
  │   │   ├── darkModeBootstrap.js
  │   │   ├── home.js
  │   │   ├── login.js
+ │   │   ├── router.js
  │   │   ├── register.js
  │   │   └── main.js
  ├── README.md

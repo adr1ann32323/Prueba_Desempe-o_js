@@ -1,46 +1,51 @@
-<div>
-            <div class="divBtnEvents">
-                <button type="button" class="btn btn-primary">Create Events</button>
+        <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../assets/styles/style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1>Eventos</h1>
+    </header>
+
+    <main id="container">
+        <div id="containerAdminHome">
+        <aside class="aside">
+            <div class="divImg">
+                <img class="avatar" src="../..//assets/noteimg.png" alt="" width="80" height="80">
+                <div>
+                    <h4>adrian</h4>
+                    <h5>Admin</h5>
+                </div>
+                
             </div>
-         </div>
-         <table class="table">
-            <thead>
-            <tr>
-            <th scope="col">image</th>
-            <th scope="col">name</th>
-            <th scope="col">Descripcion</th>
-            <th scope="col">capacity</th>
-            <th scope="col">date</th>
-            <th scope="col">Actions</th>
-            
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row"><img src="../src/assets/noteimg.png" alt="" width="80"></th>
-                <td>name</td>
-                <td>lorem sfsfesfes</td>
-                <td>10</td>
-                <td>10-15-2025</td>
-                <td>
-                   <button type="button" class="btn btn-warning">Logout</button>
-                   <button type="button" class="btn btn-danger">Logout</button>
-                </td>
+            <div class="divButton">
+                <a href="#/createEvents" class="btn btn-info">Create Events</a>
+                <button type="button" class="btn btn-secondary" id="SignOut">Logout</button>
+            </div>
+        </aside>
+        <div class="containerEvents" id="containerEvents">
+         
+        </div>
+    </div>
+    
 
-            </tr>
-            <tr>
-                <th scope="row"><img src="../src/assets/noteimg.png" alt="" width="80"></th>
-                <td>name</td>
-                <td>lorem sfsfesfes</td>
-                <td>10</td>
-                <td>10-15-2025</td>
-                <td>
-                   <button type="button" class="btn btn-warning">Logout</button>
-                   <button type="button" class="btn btn-danger">Logout</button>
-                </td>
+    </main>
 
-            </tr>
-            
-        
-            
-        </tbody>
-        </table>   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="../js/home.js"></script>
+  </body>
+</html>
